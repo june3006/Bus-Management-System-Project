@@ -1,0 +1,42 @@
+###Guideline###
+
+    JDK && JDBC Guide
+        1. Download JDK: "https://download.oracle.com/java/21/latest/jdk-21_windows-x64_bin.exe (sha256)".
+        2. Run the Installer.
+        3. Check the JDK in "Command Prompt" by typing the command "java -version".
+        P/S" JDBC is already installed as a bundle in the JDK.
+
+    Maven Guide
+        1. Download Maven: "https://dlcdn.apache.org/maven/maven-3/3.9.6/binaries/apache-maven-3.9.6-bin.zip".
+        2. Extract the zip file.
+        3. Right click on "My Computer/This PC", select Properties.
+        4. Click on Advanced System settings - Environment Variables - System Variables .
+        5. Click "New" option, enter the name for the variable (preferably "MAVEN_HOME").
+        6. Click "Browse Directory", choose the file after zip.
+        7. Find the "Path" option in the "System Variables" - Edit.
+        8. Add "%MAVEN_HOME%\bin" to the path link.
+        9. Check the Maven in "Command Prompt" by typing the command "mvn -v".
+
+    Intelljs Guide
+        1. Download Intelljs: "https://www.jetbrains.com/idea/download/?section=windows".
+        2. Run the installer.
+
+    SQL Server Guide
+        1. Download SQL Server: "https://www.microsoft.com/en-us/sql-server/sql-server-downloads".
+        2. Choose the "Developer" option.
+        3. Run the installer.
+
+    Reactjs Guide
+        1. Download Node.js: "https://nodejs.org/en/download/current"
+        2. Run the installer.
+        3. Check the Reactjs in "Command Prompt" by typing the command "npm -v".
+
+    Eclipse Guide
+        1. Download Eclipse: "https://www.eclipse.org/downloads/download.php?file=/oomph/epp/2024-03/R/eclipse-inst-jre-win64.exe".
+        2. Run the installer.
+        3. Choose the Java package.
+
+    Apache Tomcat Guide
+        1. Download Tomcat: "https://tomcat.apache.org/download-10.cgi". Choose the Installer option for download.
+        2. Run the  installer.
+        3. Check using the website "http://localhost:8080/".

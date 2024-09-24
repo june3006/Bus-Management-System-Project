@@ -1,0 +1,16 @@
+###Guideline###
+
+1. Open Github Deskstop
+2. Click File - Clone repository - URL
+3. Copy the link https://gitlab.com/galvdat/vgu_tinyprojects/pe2024/vgupe2024_team7.git
+4. Choose the path then press "Clone"
+5. If it requires SSH key then do the following step.
+
+   - Open Gitlab - Edit profile - SSH Keys
+   - If do not have SSH Keys then create one by opening the "Command Prompt"
+   - Copy the following "ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
+   - Use the command "cat ~/.ssh/id_rsa.pub" to get the full key (if the command is not recognized then use
+     "type C:\Users\YourUsername\.ssh\id_rsa.pub) depend on your key pathing
+   - Copy the key then open Gitlab - Edit profile - SSH Keys - Add new key
+   - Paste the key into the "Key" container, change the title if needed, choose the expiration date (late May for easier to use when working on the project)
+   - Choose "Add key".
