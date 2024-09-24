@@ -1,0 +1,18 @@
+.about-link {
+  text-decoration: none;
+  display: inline-block;
+  width: 222px;
+  height: 71px;
+  background: #d9d9d9;
+  font-family: Roboto, sans-serif;
+  color: black;
+  letter-spacing: 5px;
+  padding: 20px 20px;
+  position: relative;
+  margin-top: 180px
+}
+
+.about-link:hover {
+  color: white;
+  background-color: black;
+}
