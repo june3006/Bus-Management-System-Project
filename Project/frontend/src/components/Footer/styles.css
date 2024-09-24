@@ -1,0 +1,21 @@
+ul{
+list-style: none;
+}
+
+li{
+    text-decoration: none;
+    margin-left: -30px;
+    margin-top: 20px;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+img{
+    margin-right: 30px;
+    margin-top: 20px;
+}
+
+
+.contact-icon{
+    margin-bottom: 20px;
+}
