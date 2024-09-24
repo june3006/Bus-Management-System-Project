@@ -1,0 +1,17 @@
+.about-btn-link{
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+    width: 148px;
+    height: 54px;
+    border: 1px white solid;
+    text-align: center;
+    padding: 12px 0;
+    font-family: Montserrat, sans-serif;
+    font-size: 18px;
+}
+
+.about-btn-link:hover{
+    color: black;
+    background-color: white;
+}
