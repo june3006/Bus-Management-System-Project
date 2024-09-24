@@ -1,0 +1,20 @@
+.nav-btn {
+  text-align: center;
+  display: inline-block;
+  text-decoration: none;
+  font-family: "Abel", sans-serif;
+  font-size: 18px;
+  color: black;
+  width: 108px;
+  height: 24px;
+  margin-top: 18px;
+}
+
+.nav-btn:hover {
+  background-color: #d7d7d7;
+  color: black;
+}
+
+.nav-btn-active {
+  text-decoration: underline;
+}
