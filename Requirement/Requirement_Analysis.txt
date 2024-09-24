@@ -1,0 +1,18 @@
+Functional Requirement
+ - Passenger can update personal information.
+ - Passenger can report any problems to the Bus company.
+ - Passenger can check their ticket after buying.
+
+ - Driver can do the attendance check.
+ - Driver can view and register their working schedule weekly / daily.
+ - Driver can check their salary based on their working hours.
+
+ - Bus company can update / edit the information about their business.
+ - Bus company can update / edit their discount programs / promotions.
+ - Bus company can update / edit the ticket's price.
+ - Bus company can receive the report of customer and view the working hour of drivers.
+ - Bus company can view the daily / weekly / monthly / annual profits and sales.
+...
+
+Non-Functional Requirement
+ - Passenger can buy ticket by entering pick-up location, destination and date.

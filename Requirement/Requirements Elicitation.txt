@@ -1,0 +1,185 @@
+###STACKHOLDER###
+
+- Transport Operator:
+  -> Manage staff (status update)
+  -> Manage bus schedules (add/delete/update)
+  -> Look up information about staff, bus routes, bus schedules, bus information
+
+- Passenger:
+  -> Look up for bus schedules
+  -> Look up for bus routes
+  -> Seeing bus route process
+  -> Buy bus ticket
+  -> Buy bus pass (Monthly, Annually) NO NEED BUS PASS FOR NOW SINCE NO BUS STOPS
+
+- Driver:
+  -> Access bus schedules
+  -> Access bus routes
+  -> Look up for personal routes today
+  -> Update the process of the bus schedules
+
+- Admin:
+  -> Basically have every functions available and have some admin-only functions
+
+###USER STORY###
+
+- Story 1: Passenger Books a Ticket
+  -> As a Passenger
+  -> I want to book a bus ticket for my desired route and date
+  -> So that I can ensure my travel is planned and reserved in advance.
+
+- Story 2: Operator Manages Bus Schedules
+  -> As a transport operator,
+  -> I want to create and update bus schedules, bus information, driver information.
+  -> So that passengers have up-to-date information on bus timings and availability.
+  -> So that drivers have up-to-date information about his personal information and bus information (vehicle's insurance,vehicle's validation)
+
+- Story 3: Bus Driver Accesses Daily Schedule and Route Information
+  -> As a bus driver,
+  -> I want to access my daily schedule and route information through the system,
+  -> So that I can efficiently manage my driving duties and ensure timely service for passengers.
+
+###PERSONA###
+
+- Persona 1: Morathi - The Daily Commuter
+  -> Age: 29
+  -> Occupation: Graphic Designer
+  -> Experience with Technology: Moderate
+  -> Goals: Morathi wants a reliable and efficient way to commute to her job in the city center. She values punctuality and prefers to plan her trips in advance to avoid delays.
+  -> Challenges: Morathi often finds it difficult to get real-time updates on bus schedules, leading to missed buses or unnecessary waiting times at the bus stop.
+  -> Interactions with the System: Morathi uses the system to book tickets, check bus schedules, and receive real-time updates on her bus's location.
+
+- Persona 2: Nehek - The Transport Operator
+  -> Age: 37
+  -> Occupation: Operations Manager at Succubus Bus Company
+  -> Experience with Technology: High
+  -> Goals: Nehek wants to simplify the operations of his bus fleet to ensure high efficiency and customer satisfaction. He looks to optimize routes, manage schedules effectively, and respond promptly to any service disruptions.
+  -> Challenges: Nehek finds it challenging to gather and analyze operational data to make informed decisions. Communicating updates and changes efficiently to both drivers and passengers is also a concern.
+  -> Interactions with the System: Nehek uses the system to manage bus schedules, monitor bus locations and operations in real-time, and generate reports on service performance.
+
+- Persona 3: Taurox - The Bus Driver
+  -> Age: 45
+  -> Occupation: 15 years as a bus driver
+  -> Experience with Technology: Low to moderate
+  -> Goals: Taurox aims to provide a safe and timely service to his passengers. He wants to easily access his daily schedules and any last-minute changes to his routes.
+  -> Challenges: Taurox struggles with communicating delays or changes in the route to the transport operators and passengers. He also finds it hard to access his schedule in a convenient, digital format.
+  -> Interactions with the System: Taurox uses the system to view his daily schedules, report issues, and receive notifications about changes or emergencies.
+
+###USE CASE AND SCENARIO###
+
+
+- Use Case 1: Booking a Ticket
+  -> Primary Actor: Morathi, the Daily Commuter
+  -> Secondary Actor 1: Payment Gateway (Momo, Paypal, Zalo Pay, Credit Card, Online Banking)
+  -> Secondary Actor 2: Bus Management System Backend
+
+  -> Pre-condition 1: Morathi has registered and logged into the Bus Management System.
+  -> Pre-condition 2: The bus schedule for Morathi's desired route and time is available and has open seats.
+
+  -> Main Flow:
+      1. Search for Route: Morathi enters her starting location and destination, along with the preferred date and time of travel.
+      2. Select Route and Time: The system displays available routes with date and time. Morathi then selects the most convenient option.
+      3. Choose Seat: Morathi is shown the seating plan and selects her preferred seat.
+      4. Make Payment: Morathi enters her payment details into the secure payment gateway integrated into the system.
+      5. Receive Confirmation: The system confirms Morathi's booking and sends her a ticket via email or SMS.
+
+  -> Post-condition 1: Morathi's seat on the selected bus is reserved.
+  -> Post-condition 2: The available seats for the chosen route and time are updated to reflect Morathi's booking.
+
+  -> Exception 1: If no route is available, the system informs Morathi and suggests alternative dates or times.
+  -> Exception 2: If the payment fails, the system notifies Morathi and prompts her to retry.
+
+- Scenario 1:
+  -> Associated with Use Case 1
+
+  -> Morathi needs to commute to her office in the city center by 9:00 AM.
+
+  -> Pre-condition 1:
+    -> On the previous evening, Morathi logs into the Bus Management System.
+
+  -> Main Flow - 1. Search for Route
+    -> She searches for a route from her home to the office for the next day at 8:00 AM.
+
+  -> Main Flow - 2. Select Route and Time
+    -> The system displays a bus that departs at 7:45 AM, arriving by 8:45 AM.
+    
+  -> Main Flow - 3. Choose Seat
+    -> Morathi selects the route and chooses a window seat near the front.
+
+  -> Main Flow - 4. Make Payment
+    -> She proceeds to payment, entering her credit card details.
+    -> The payment is processed successfully.
+
+  -> Main Flow - 5. Receive Confirmation
+    -> Morathi receives an email confirmation with her ticket details, including the seat number and bus schedule.
+
+  -> Post-condition 1
+    -> The system marks Morathi's seat as reserved.
+
+  -> Post-condition 2
+    -> The system updates the seat availability for that bus.
+
+
+- Use Case 2: Passenger Feedback
+  -> Primary Actor: Morathi - The Daily Commuter
+
+  -> Pre-condition 1: Morathi has completed a journey using the bus service.
+
+  -> Main Flow:
+      1. Accessing the Feedback Form: Morathi opens the Bus Management System app and navigates to the feedback section.
+      2. Filling Out the Form: Morathi rates her journey across multiple dimensions, including punctuality, bus cleanliness, and driver professionalism. Morathi also provides written feedback about the bus being overcrowded during peak hours.
+      3. Submitting the Feedback: After reviewing her inputs, Morathi submits the feedback through the app.
+      4. Acknowledgment: The system confirms receipt of her feedback and thanks her for helping improve the bus service.
+
+  -> Post-condition 1: Morathi’s feedback is stored in the system for review by the transport operator.
+
+  -> Exception: If there’s an error or connectivity issue preventing feedback submission, the app informs Morathi and suggests trying again later.
+
+- Scenario 2:
+  -> Associated with Use Case 2
+
+  -> Morathi uses the bus service regularly to commute to work.
+  -> Today, she found her usual bus significantly more overcrowded than usual, making her commute uncomfortable.
+
+  -> Pre-condition 1
+    -> After reaching her destination, Morathi decides to share her experience to help improve the service.
+  
+  -> Main Flow - 1. Accessing the Feedback Form
+    -> She opens the Bus Management System app on her smartphone and taps on the "Feedback" section.
+
+  -> Main Flow - 2. Filling Out the Form
+    -> The app presents Morathi with a simple form asking for ratings on various aspects of her journey, such as punctuality, cleanliness, and driver behavior. It also includes a free text field for additional comments.
+    -> Morathi rates her journey as follows: Punctuality (5 stars), Cleanliness (4 stars), Driver Behavior (5 stars).
+    -> In the comments section, she writes, "The 8 AM bus on Route 5 was extremely overcrowded today. It was uncomfortable, and it felt unsafe given current health guidelines. It would be great if more buses could be added during peak hours."
+
+  -> Main Flow - 3. Submitting the Feedback
+    -> After reviewing her feedback to ensure it accurately reflects her experience, Morathi presses the "Submit" button.
+
+  -> Main Flow - 4. Acknowledgment
+    -> The app immediately displays a message thanking her for the feedback, assuring her that it is valuable in improving the service.
+    -> The message also mentions that all feedback is reviewed by the transport operators.
+  
+  -> Post-condition 1
+    -> The transport operator has access to Morathi’s feedback, along with feedback from other passengers, in a central repository for review and action.
+
+  -> Exception:
+    -> Had Morathi encountered a technical issue preventing her from submitting the feedback, such as a server error or loss of internet connectivity, the app would have displayed an error message suggesting she try again later.
+    -> The app might also save her draft feedback locally to prevent loss of her input.
+
+
+- Use Case 3: Schedule Optimization
+  -> Primary Actor: Nehek - the Transport Operator
+
+  -> Pre-condition 1: Nehek has administrative access to the system.
+  -> Pre-condition 2: Data on route performance and passenger feedback is available.
+
+  -> Main Flow:
+      1. Analyzing Data: Nehek reviews route performance reports and passenger feedback provided by the system.
+      2. Identifying Opportunities: The system highlights routes with high demand, potential overloads, or inefficiencies.
+      3. Adjusting Schedules: Nehek makes data-driven decisions to adjust bus schedules, such as changing frequencies, adding or removing services, and optimizing timings.
+      4. Publishing Updates: The revised schedules are published to the system, becoming immediately available to drivers and passengers.
+
+  -> Post-condition 1: The bus service operates more efficiently, aligning with actual passenger demand and feedback.
+  -> Post-condition 2: Passengers experience improved service with better-timed buses and fewer overloads.
+
+  -> Exception: If the data seems inaccurate or contradicts direct feedback, Nehek initiates a review of the data sources and collection methods.

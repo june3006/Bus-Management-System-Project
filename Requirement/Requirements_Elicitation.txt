@@ -1,0 +1,25 @@
+Passenger:
+ - Update their own personal information.
+ - Booking bus by entering pick-up location and destination. 
+ - Report any problems.
+ - Check ticket.
+ ...
+
+Transport Operator:
+ ...
+
+Driver:
+ - Login for attendance check to count working time.
+ - View working schedule / personal routes daily and weekly.
+ - (Register their working time for the next week).
+ - Salary check.
+ ...
+
+Bus company:
+ - Manage the information about their business.
+ - Manage the discount program or promotion for each customer persona and in each seasons.
+ - Manage the price of tickets.
+ - View the daily / weekly / monthly / annual profit and sales.
+ - View drivers' working hous and receive reports of customers.
+ ...
+

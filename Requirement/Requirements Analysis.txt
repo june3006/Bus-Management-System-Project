@@ -1,0 +1,48 @@
+###FUNCTIONAL REQUIREMENTS###
+
+- Transport operators can create/delete/update schedules.
+- transport operators can look up bus schedules.
+- transport operators can look up buses information.
+- transport operators can look up drivers.
+- transport operators can look up bus routes.
+- Transport operators can update bus information.
+- transport operators can update driver status.
+
+
+- passengers can buy ticket.
+- passengers can cancel ticket (refund request).
+- passengers can update ticket (change time/routes request).
+- passengers can look up bus routes.
+- passengers can look up bus schedules.
+
+- drivers can access the drivers's daily schedules.
+- drivers can access bus routes (via google map if possible)
+- drivers can update process of routes via transport operators
+- drivers can update drivers information.
+- drivers can request leave (will discuss later)
+- drivers can report any incidents when on road.
+
+- admin can add routes.
+- admin can delete routes.
+- admin can update routes.
+- admin can add drivers.
+- admin can delete drivers.
+
+- transporter operators and drivers can contact via the application.
+
+###NON-FUNCTIONAL REQUIREMENT###
+
+- Usability
+- UI user-friendly
+- Big font size
+- White & Black color
+- Minimalism UI
+- Less Buttons
+- Messenger like application for asking information
+- The accessibility must be immediately in Real-time.
+
+###PROCESS REQUIREMENTS###
+
+- Agile Methodology
+- Possible language use: JavaScript (ReactJS), Java(Spring Boot), SQL(MySQL)
+- Possible framework use: ReactJS, Spring Boot, MySQL

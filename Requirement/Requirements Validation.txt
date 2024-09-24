@@ -1,0 +1,39 @@
+###REQUIREMENTS READY FOR DESIGN PHASE###
+
+- Passenger can create account.
+- Passenger can log in.
+- Passenger can manage profile.
+- Passenger can search and select schedule.
+- Passenger can book ticket for selected schedule.
+- Passenger can make payment.
+- Passenger can submit feedback.
+
+- Transport operator can log in with admin access.
+- Transport operator can create schedule.
+- Transport operator can modify schedule.
+- Transport operator can delete schedule.
+- Transport operator can review schedule performance.
+- Transport operator can review passenger feedback for each schedule.
+- Transport operator can review passenger feedback for each driver.
+
+- System can display available schedule.
+- System can display seat layout with availability.
+- System can notify passenger on successful payment.
+- System can notify passenger on successful feedback submission.
+- System can notify passenger on failed payment and prompt a retry.
+- System can notify passenger on failed feedback submission and prompt a retry.
+- System can notify passenger the sucessfully booked schedule.
+
+- Database can store passenger profile.
+- Database can store driver profile
+- Database can store schedule.
+- Database can store schedule performance across two criteria: number of total accidents and number of passengers monthly.
+- Database can store seat layout with availability.
+- Database can store feedback across three criteria: punctuality, bus cleaniness, and driver professinonalism.
+
+
+###REQUIREMENTS NEED FURTHER CONSIDERATION###
+
+###REQUIREMENTS CONFLICT###
+
+###CONFLICT RESOLVED###
